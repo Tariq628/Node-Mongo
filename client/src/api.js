@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000", // Replace this with your backend server URL
+  baseURL: "https://panicky-tan-raven.cyclic.app", // Replace this with your backend server URL
 });
 
 export const fetchData = async () => {
